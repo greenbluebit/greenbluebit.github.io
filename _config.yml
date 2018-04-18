@@ -1,23 +1,23 @@
 # Site Settings
-title: Jekflix | A theme for Jekyll
-email: youremail@xyz.com
-description: Some text about your blog.
+title: Ted | A blog for myself
+email: greenbluebit@gmail.com
+description: Place for me to show my work and maybe have a rant or two.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://greenbluebit.github.io" # the base hostname & protocol for your site
-google_analytics: "UA-XXXXXXXX-X"
+google_analytics: "UA-117810967-1"
 
 # User Settings
-username: Jekflix
-user_description: Some text about you.
+username: Ted
+user_description: Software developer in Denmark, really into games, AI and DIY electronics.
 disqus_username: disqus_username
 
 # Social Media
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
+github_username: greenbluebit
+facebook_username: ted.blop
+twitter_username: theodor_purcaru
+instagram_username: tedblop
+linkedin_username: theodorpurcaru
 medium_username: medium_username
 
 # Build settings
