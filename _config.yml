@@ -9,7 +9,7 @@ google_analytics: "UA-117810967-1"
 # User Settings
 username: Ted
 user_description: Software developer in Denmark, really into games, AI and DIY electronics.
-disqus_username: disqus_username
+disqus_username: disqus_NyvU8I387a
 
 # Social Media
 # Remove the item if you don't need it
@@ -18,7 +18,7 @@ facebook_username: ted.blop
 twitter_username: theodor_purcaru
 instagram_username: tedblop
 linkedin_username: theodorpurcaru
-medium_username: medium_username
+medium_username: greenbluebit
 
 # Build settings
 markdown: kramdown
