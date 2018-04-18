@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "The Far Lobby"
 date: 2018-04-18 13:40:00
 image: 'https://img.itch.zone/aW1hZ2UvMjM4MzczLzExMzUxNzIuanBn/315x250%23c/Me7MhF.jpg'
