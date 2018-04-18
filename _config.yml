@@ -2,7 +2,7 @@
 title: Ted | A blog for myself
 email: greenbluebit@gmail.com
 description: Place for me to show my work and maybe have a rant or two.
-baseurl: "/ted" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://greenbluebit.github.io" # the base hostname & protocol for your site
 google_analytics: "UA-117810967-1"
 
