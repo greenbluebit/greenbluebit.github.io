@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I am awesome,
   Agile & Sexy. Hire Me
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for site, e.g. http://example.com
+url: ""
 meta_author: Purcaru Theodor
 keywords: "your keywords, separated by commas"
 # Google webmaster tools
@@ -31,15 +31,15 @@ collections:
 # Social networks
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: https://twitter.com/theodor_purcaru
   - title: facebook
-    url:
+    url: https://www.facebook.com/ted.blop
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: https://stackoverflow.com/users/4284444/bbit
   - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: https://bitbucket.org/Ted_Blop/
   - title: github
-    url: http://github.com/jekyll
+    url: https://github.com/greenbluebit
 
 # Build settings
 markdown: kramdown
