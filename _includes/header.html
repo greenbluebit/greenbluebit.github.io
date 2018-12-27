@@ -1,18 +1,31 @@
-<header class="bar-header">
-    <a id="menu">
-        <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
-    </a>
-    <a id="search" class="dosearch">
-        <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
-    </a>
-    <h1 class="logo">
-        <a href="{{ site.baseurl }}/">
-            {{ site.username }}
-        </a>
-    </h1>
-</header>
-
-<div id="mask" class="overlay"></div>
-
-{% include menu.html %}
-{% include search.html %}
+    <!-- Header -->
+    <header>
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Portfolio</h2>
+                        <hr class="pg-border">
+                        <span class="pg-border-icon dark">
+                            <i class="fas fa-desktop fa-2x"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    {% assign projects = (site.projects | sort: 'order_id' | reverse) %}
+                    {% for post in projects %}
+                        <div class="col-sm-4 portfolio-item">
+                            <a href="#portfolioModal-{{ post.order_id }}" class="portfolio-link" data-toggle="modal">
+                                <div class="caption">
+                                    <div class="caption-content">
+                                        <i class="fab fa-readme fa-5x"></i>
+                                    </div>
+                                </div>
+                                <img src="assets/img/{{ post.name}}/{{ post.preview-img }}" class="img-responsive" alt="{{ post.alt }}">
+                            </a>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+    </header>

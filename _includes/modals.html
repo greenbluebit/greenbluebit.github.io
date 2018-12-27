@@ -1,0 +1,83 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.projects %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.order_id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <h4><a  target="_blank" href="{{ post.link }}"><u>Download here</u></a></h4>
+                            <img src="assets/img/{{post.name}}/{{ post.header-img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            {% if post.description %}
+                                <p>{{ post.description }}</p>
+                            {% endif %}
+                            {% if post.awards %}
+                                <div class="row" style="padding-bottom: 30px;">
+                                    {% for award in post.awards %}
+                                    <div class="row" style="padding-bottom: 10px;">
+                                        <div class="col-sm-2 award-and-certification-icon">
+                                            {% if award.icon_type == "image" %}
+                                                <img src="assets/img/icons/{{ award.icon }}" alt="{{award.title}}" title="{{ award.title }}" />
+                                            {% else %}
+                                                <span><i class="fas {{award.icon}} fa-5x"></i></span>
+                                            {% endif %}
+                                        </div>
+                                        <div class="col-sm-10 award-and-certification-item">
+                                            <h3>{{award.title}}</h3>
+                                            <h5>{{award.organization}} | {{award.period}}</h5>
+                                            {% if award.description %}
+                                                <p>
+                                                    {{award.description}}
+                                                </p>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                            {% if post.screenshots %}
+                                {% for screenshot in post.screenshots %}
+                                    <div class="screenshot-body">
+                                        <img class="screenshot" src="assets/img/{{post.name}}/{{ screenshot.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+
+                                        {% if screenshot.title %}
+                                            <br>
+                                            <small> {{screenshot.title}} </small>
+                                        {% endif %}
+                                        {% if screenshot.description %}
+                                            <br>
+                                            <small> {{screenshot.description}} </small>
+                                        {% endif %}
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+                            {% if post.videos %}
+                                {% for video in post.videos %}
+                                    <div>
+                                        <iframe width="560" height="315" src="{{video.link}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    </div>
+                                {% endfor %}
+                            {% endif %}
+
+                            <ul class="list-inline item-details">
+                                {% if post.link %}
+                                    <li>
+                                        <strong><a  target="_blank" href="{{ post.link }}">Download Here</a></strong>
+                                    </li>
+                                {% endif %}
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

@@ -1,43 +1,61 @@
-# Site Settings
-title: Ted | A blog for myself
+# Site settings
+title: Theodor Purcaru
 email: greenbluebit@gmail.com
-description: Place for me to show my work and maybe have a rant or two.
+description: >- # this means to ignore newlines until "baseurl:"
+  I am awesome,
+  Agile & Sexy. Hire Me
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://greenbluebit.github.io" # the base hostname & protocol for your site
-google_analytics: "UA-117810967-1"
+url: "" # the base hostname & protocol for site, e.g. http://example.com
+meta_author: Purcaru Theodor
+keywords: "your keywords, separated by commas"
+# Google webmaster tools
+#google_verify:
 
-# User Settings
-username: Ted
-user_description: Software developer in Denmark, really into games, AI and DIY electronics.
-disqus_username: disqus_NyvU8I387a
 
-# Social Media
-# Remove the item if you don't need it
-github_username: greenbluebit
-facebook_username: ted.blop
-twitter_username: theodor_purcaru
-instagram_username: tedblop
-linkedin_username: theodorpurcaru
-medium_username: greenbluebit
+# Color settings
+color:
+  cold-dark: 2b2f3d
+  cold-light: 466874
+  warm-dark: 4f4e47
+  warm-light: 9f926e
+  off-white: f7f7e2
+
+# Collections
+collections_dir: collections
+collections:
+  - skills
+  - jobs
+  - qualifications
+  - projects
+
+# Social networks
+social:
+  - title: twitter
+    url: http://twitter.com/jekyllrb
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/jekyll
+  - title: bitbucket
+    url: http://bitbucket.org/jekyll
+  - title: github
+    url: http://github.com/jekyll
 
 # Build settings
 markdown: kramdown
 highlighter: rouge
-permalink: /:title/
+theme: minima
+plugins:
+  - jekyll-feed
 
-# Plugins
-gems:
-  - jemoji
-
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Contact
-    url: /contact/
-
-# Exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

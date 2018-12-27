@@ -1,0 +1,35 @@
+<!-- Portfolio Grid Section -->
+    <section id="qualifications">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Qualifications</h2>
+                    <hr class="pg-border">
+                    <span class="pg-border-icon dark">
+                        <i class="fas fa-desktop fa-2x"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                {% assign qualifications = (site.qualifications | sort: 'order_id' | reverse) %}
+                {% for award in qualifications %}
+                <div class="row">
+                    <div class="col-sm-2 award-and-certification-icon">
+                        {% if award.icon_type == "image" %}
+                            <img src="assets/img/icons/{{ award.icon }}" alt="{{award.title}}" title="{{ award.title }}" />
+                        {% else %}
+                            <span><i class="fas {{award.icon}} fa-5x"></i></span>
+                        {% endif %}
+                    </div>
+                    <div class="col-sm-10 award-and-certification-item">
+                    	<h3>{{award.title}}</h3>
+                    	<h5>{{award.organization}} | {{award.period}}</h5>
+                        <p>
+                        	{{award.description}}
+                        </p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
