@@ -1,4 +1,8 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+
 $email_address = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
 
 // Check for empty fields
