@@ -1,11 +1,12 @@
 ---
 layout: default
 order_id: 4
-name: farFromNormal
-title: Far From Normal
-preview-img: farFromNormal.png
-header-img: farFromNormal.png
-icon: icon.jpg
+name: s23System
+title: Signs23 System
+preview-img: s23System.png
+header-img: s23System.png
+icon: keyboard
+icon_type: light
 alt: Far From Normal
 link: https://octohatgames.itch.io/far-from-normal
 category: Game

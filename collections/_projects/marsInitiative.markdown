@@ -1,38 +1,26 @@
 ---
 layout: default
 order_id: 3
-name: farFromNormal
-title: Far From Normal
-preview-img: farFromNormal.png
-header-img: farFromNormal.png
-icon: icon.jpg
-alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
-category: Game
-description: I worked on this game as the head programmer, quickly organizing and settling on tasks with the other two programmers. We worked on it using Unity. <br>The game, at it's core, is a local multiplayer king of the hill game with a little bit of arena combat sprinkled in. There is a basic inventory system, giving players the ability to pick up and use items as well as environmental threats from the tentacles that can break in through the stage.<br><br>
+name: marsInitiative
+title: Mars Initiative
+preview-img: marsInitiative.png
+header-img: marsInitiative.png
+icon: gamepad
+icon_type: light
+alt: Mars Initiative
+link: https://gamejolt.com/games/marsinitiative/361149
+category: Mobile
+description: This year, I finally got to participate in Ludum Dare. My entry was a pretty simple game where you have to manage both the space available to you and your fuel, which is basically a lifeline. You get periodical boosts as the game goes on from Earth and from the colonies you drop on Mars. The development was quite straight forward, I finished it in the first day of the jam, and I spent the rest of the time adding juice and making it work on Android nicely.
 screenshots:
-    - img: farFromNormal.png
+    - img: marsInitiative.png
       title: Main Menu
       description: Showing four players preparing for a fight
-    - img: farFromNormal.png
+    - img: marsInitiative.png
       title: Main Menu
       description: Showing four players preparing for a fight
 videos:
     - link: https://www.youtube.com/embed/0tMsdFcywOs
       title: Gameplay Video
       description: Showcasing some of the gameplay
-awards:
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
 ---
 

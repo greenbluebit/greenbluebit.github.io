@@ -109,6 +109,35 @@ h4 {
     padding-bottom: 10px;
 }
 
+.category {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    display: block;
+}
+
+.category .category-content {
+    float: right;
+    display: block;
+    position: relative;
+    margin-right: 5px;
+}
+
+.category .category-dark {
+    color: #{{ site.color.cold-dark }};
+}
+
+.category .category-light {
+    color: #{{ site.color.off-white }};
+}
+
+.portfolio-modal .award {
+    padding-bottom: 10px;
+    margin-top: 10px;
+    background-color: #{{ site.color.cold-light }};
+    color: #{{ site.color.off-white }};
+}
+
 .portfolio-modal a, h4 u {
     text-decoration: none;
     border-bottom: 4px solid #{{ site.color.cold-light }};
@@ -314,6 +343,14 @@ section.success {
     opacity: 1;
 }
 
+#portfolio .portfolio-item .portfolio-link .caption .content-dark{
+    color: #{{ site.color.cold-dark }};
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .content-light{
+    color: #{{ site.color.off-white }};
+}
+
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
     position: absolute;
     top: 35%;
@@ -322,7 +359,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #{{ site.color.off-white }};
+    
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -494,6 +531,7 @@ footer .footer-below {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #{{ site.color.off-white }};
 }
 
 .portfolio-modal .modal-content h2 {

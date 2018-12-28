@@ -1,38 +1,39 @@
 ---
 layout: default
 order_id: 2
-name: farFromNormal
-title: Far From Normal
-preview-img: farFromNormal.png
-header-img: farFromNormal.png
-icon: icon.jpg
-alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
+name: farLobby
+title: Far Lobby
+preview-img: farLobby.png
+header-img: farLobbyHeader.png
+icon: gamepad
+icon_type: light
+alt: Far Lobby
+link: https://octohatgames.itch.io/the-far-lobby
 category: Game
-description: I worked on this game as the head programmer, quickly organizing and settling on tasks with the other two programmers. We worked on it using Unity. <br>The game, at it's core, is a local multiplayer king of the hill game with a little bit of arena combat sprinkled in. There is a basic inventory system, giving players the ability to pick up and use items as well as environmental threats from the tentacles that can break in through the stage.<br><br>
+description: Develpment of Far Lobby started from the idea that we wanted to make a very simple game, that could be enjoyed in the short time people have to experience games before voting, players not needed to invest more than 5 minutes to enjoy the game to the fullest. <br>My part in this was to first organize the workload based on the capabilities of each person on the coding side. I then looked over all of the tasks and came up with basic designs for each of them, which would ensure a similar approach to the way solutions were developed and make tasks interchangeability between developers easier.<br>
 screenshots:
-    - img: farFromNormal.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-    - img: farFromNormal.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
+    - img: beginnings.png
+      title: First Iteration
+      description: By this point, we still weren't sure where to bring the people from, we were testing different things.
+    - img: soDone.png
+      title: Poor guy
+      description: Ragdolls are amazingly fun, here we have one just wanting to go home.
+    - img: somebodyToLove.png
+      title: Falling apart
+      description: Having some fun with throwing them in VR.
+    - img: gameDevIsWeird.png
+      title: Things got weird fast.
+      description: When using animations, if the bones are not properly set to the model, odd things can occur.
 videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
+    - link: https://www.youtube.com/embed/_X8Y71W9sEQ
       title: Gameplay Video
-      description: Showcasing some of the gameplay
+      description: A critique video by ShortChangeGames.
 awards:
     - icon: fa-trophy
       icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
+      title: Best Game
+      organization: Create Jam Spring 18 - Aalborg
       order_id: 1
-      period: 09-07-2017
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
+      period: 15-11-2018
 ---
 

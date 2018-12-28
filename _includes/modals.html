@@ -19,9 +19,9 @@
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             {% if post.awards %}
-                                <div class="row" style="padding-bottom: 30px;">
+                                <div class="row" style="padding-bottom: 20px;">
                                     {% for award in post.awards %}
-                                    <div class="row" style="padding-bottom: 10px;">
+                                    <div class="row award">
                                         <div class="col-sm-2 award-and-certification-icon">
                                             {% if award.icon_type == "image" %}
                                                 <img src="assets/img/icons/{{ award.icon }}" alt="{{award.title}}" title="{{ award.title }}" />
