@@ -1,6 +1,6 @@
 ---
 company: PodPal Games
-title: Software Developer
+title: Game Developer (Intern)
 type: Full Time
 order_id: 6
 startDate: 01/12/2018

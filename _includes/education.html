@@ -11,15 +11,24 @@
                 </div>
             </div>
             <div class="row">
-                {% assign sorted_jobs = (site.jobs | sort: 'order_id' | reverse) %}
-                {% for job in sorted_jobs %}
-                    <div class="col-sm-12 education-item">
-                    	<h3>{{job.title}}</h3>
-                    	<h5>{{job.company}} | {{job.type}} | {{job.startDate}} - {{job.endDate}}</h5>
+                {% assign education = (site.education | sort: 'order_id' | reverse) %}
+                {% for award in education %}
+                <div class="row">
+                    <div class="col-sm-2 award-and-certification-icon">
+                        {% if award.icon_type == "image" %}
+                            <img src="assets/img/icons/{{ award.icon }}" alt="{{award.title}}" title="{{ award.title }}" />
+                        {% else %}
+                            <span><i class="fas {{award.icon}} fa-5x"></i></span>
+                        {% endif %}
+                    </div>
+                    <div class="col-sm-10 award-and-certification-item">
+                    	<h3>{{award.title}}</h3>
+                    	<h5>{{award.organization}} | {{award.period}}</h5>
                         <p>
-                        	{{job.description}}
+                        	{{award.description}}
                         </p>
                     </div>
+                </div>
                 {% endfor %}
             </div>
         </div>
