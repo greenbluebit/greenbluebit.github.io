@@ -10,17 +10,16 @@ icon_type: light
 alt: Mars Initiative
 link: https://gamejolt.com/games/marsinitiative/361149
 category: Mobile
-description: This year, I finally got to participate in Ludum Dare. My entry was a pretty simple game where you have to manage both the space available to you and your fuel, which is basically a lifeline. You get periodical boosts as the game goes on from Earth and from the colonies you drop on Mars. The development was quite straight forward, I finished it in the first day of the jam, and I spent the rest of the time adding juice and making it work on Android nicely.
+description: I finally got to participate in Ludum Dare. My entry was a basic resource management game, which the player can really only interact with by tapping/clicking on the screen. I originally released it on PC in the first day of the contest, and spent the rest of my time fixing it and releasing it on Android.<br>The game itself is easy to play and very serene once you get in the groove of things. As a colony manager, you need to send factories down while managing available space and fuel.<br><br>Responsabilities:<br>- Make basic behavior for orbiting around celestial objects<br>- Make autopilot behavior for the missiles traveling to a target<br>- Make score and fuel tracking functionality 
 screenshots:
-    - img: marsInitiative.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-    - img: marsInitiative.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
-      title: Gameplay Video
-      description: Showcasing some of the gameplay
+    - img: earlyGame.png
+      title: Early Game
+      description: As the game starts, the space on Mars is plenty
+    - img: midGame.png
+      title: Mid Game
+      description: Old factories placed on Mars expire eventually. Can be destroyed with missiles, but it wastes fuel
+    - img: lateGame.png
+      title: Late Game
+      description: The later in game, the more hectic it becomes, and you start to receive and send missiles to Earth too
 ---
 

@@ -10,7 +10,7 @@ icon_type: light
 alt: Far Lobby
 link: https://octohatgames.itch.io/the-far-lobby
 category: Game
-description: Develpment of Far Lobby started from the idea that we wanted to make a very simple game, that could be enjoyed in the short time people have to experience games before voting, players not needed to invest more than 5 minutes to enjoy the game to the fullest. <br>My part in this was to first organize the workload based on the capabilities of each person on the coding side. I then looked over all of the tasks and came up with basic designs for each of them, which would ensure a similar approach to the way solutions were developed and make tasks interchangeability between developers easier.<br>
+description: With this project, we created a ragdoll based game where you drag people either to hell or heaven, and pay the price for it. The game has a straight forward style to it and as such the development reflected that. Our work was not required to encompass many features, but simply make one and perfect it, adding as much juice as possible.<br><br>Responsabilities:<br>- Ragdoll implementation<br>- Level setup and prefab creation<br>- GameManager to keep track of choices and score<br>- SceneManager to switch between scenes as well as play required animations<br>- AnimationManager which would trigger any event specified in the inspector on any event it would be attached to<br>- InputManager to give the ability to move characters by dragging them around the screen<br>- Lead a team of myself and another programmer and review tasks
 screenshots:
     - img: beginnings.png
       title: First Iteration
