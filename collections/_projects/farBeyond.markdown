@@ -7,33 +7,23 @@ preview-img: farBeyond.png
 header-img: farBeyond.png
 icon: gamepad
 icon_type: light
-alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
+alt: Far Beyond
+link: https://tandems.itch.io/far-beyond
 category: Game
-description: I worked on this game as the head programmer, quickly organizing and settling on tasks with the other two programmers. We worked on it using Unity. <br>The game, at it's core, is a local multiplayer king of the hill game with a little bit of arena combat sprinkled in. There is a basic inventory system, giving players the ability to pick up and use items as well as environmental threats from the tentacles that can break in through the stage.<br><br>
+description: The second time I ever did a gamejam, used the Unreal Engine though I had never opened it, my insanity is clear. The game is heavily reliant on it's narrative, taking the player through a wasteland and slowly giving him details of what happened, ending in the player having too much and deciding to do something about it.<br><br>Responsabilities:<br>- Creating the behavior for interacting with objects, showing them up close, for example, to read a newspaper.<br>- Creating the frost functionality, where the player has to hurry between camps, least he loose too much body heat and die.<br>- Make the end cinematic using the Sequencer tool in unreal.
 screenshots:
-    - img: farBeyond.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-    - img: farBeyond.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
-      title: Gameplay Video
-      description: Showcasing some of the gameplay
+    - img: gameplay.png
+      title: Exiting the cave
+      description: The player is about to exit the cave where some disturbing things are present.
+    - img: secondPart.png
+      title: The lake
+      description: The player is starting to explore more of the map, piecing details together.
 awards:
     - icon: fa-trophy
       icon_type: icon
-      title: Best Overall Game - Far Beyond
+      title: Best Overall Game
       organization: Indie Jam - Aalborg
       order_id: 1
-      period: 09-07-2017
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
+      period: 09-06-2015
 ---
 

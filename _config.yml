@@ -2,16 +2,14 @@
 title: Theodor Purcaru
 email: greenbluebit@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am awesome,
-  Agile & Sexy. Hire Me
+  Software Developer.
+  Looking for projects to sink my teeth in.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
-meta_author: Purcaru Theodor
-keywords: "your keywords, separated by commas"
+meta_author: Theodor Purcaru
+keywords: "software developer, programming, game development"
 # Google webmaster tools
 #google_verify:
-
-
 # Color settings
 color:
   cold-dark: 2b2f3d

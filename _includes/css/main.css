@@ -151,7 +151,7 @@ h4 {
     margin-top:12px;
 }
 
-.portfolio-modal iframe {
+.portfolio-modal iframe, .portfolio-modal video {
     width: 100%;
     min-height: 424px;
 }

@@ -7,33 +7,23 @@ preview-img: swingMacabre.png
 header-img: swingMacabre.png
 icon: gamepad
 icon_type: dark
-alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
+alt: Swing Macabre
+link: https://gamejolt.com/games/SwingMacabre/287587
 category: Game
-description: I worked on this game as the head programmer, quickly organizing and settling on tasks with the other two programmers. We worked on it using Unity. <br>The game, at it's core, is a local multiplayer king of the hill game with a little bit of arena combat sprinkled in. There is a basic inventory system, giving players the ability to pick up and use items as well as environmental threats from the tentacles that can break in through the stage.<br><br>
+description: We made swing macabre for one of the few online jams I've taken part in. This game is a third person shoot-em up where a jukebox fell from the sky and is turning people into undead swing dancers, the infection is spreading and you need to keep away before you catch it too.<br><br>Responsabilities:<br>- Make a state machine for the AI which can follow/attack the player, idle, go towards the jukebox, dance around it.<br>- Development on player functionality from animation control to movement and shooting gameplay.<br>- Spawning AI at an increased rate as the player goes through waves of enemies.<br>
 screenshots:
-    - img: swingMacabre.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-    - img: swingMacabre.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
+    - img: gameplay.jpg
+      title: The jukebox attracts zombies
+      description: The more dancers at the jukebox, the harder the game gets.
+    - img: gameplay2.jpg
+      title: Fighting dirty
+      description: Killing the undead is oddly satisfying in this game.
+    - img: gameEnd.jpg
+      title: Game Over
+      description: On one hand, you lost, on the other, you're having a ball!
 videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
+    - link: https://www.youtube.com/embed/IAR86coq_0w
       title: Gameplay Video
       description: Showcasing some of the gameplay
-awards:
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
 ---
 

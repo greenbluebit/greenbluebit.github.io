@@ -13,7 +13,9 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
+                            {% if post.link %}
                             <h4><a  target="_blank" href="{{ post.link }}"><u>Download here</u></a></h4>
+                            {% endif %}
                             <img src="assets/img/{{post.name}}/{{ post.header-img }}" class="screenshot img-responsive img-centered" alt="{{ post.alt }}">
                             {% if post.description %}
                                 <p>{{ post.description }}</p>
@@ -60,6 +62,13 @@
                                     </div>
                                 {% endfor %}
                             {% endif %}
+                            {% if post.local_videos %}
+                                {% for video in post.local_videos %}
+                                <video width="320" height="240" controls>
+                                  <source src="assets/img/{{post.name}}/{{video.source}}" type="video/{{video.type}}">
+                                </video>
+                                {% endfor %}
+                            {% endif %}
                             {% if post.videos %}
                                 {% for video in post.videos %}
                                     <div>
@@ -75,7 +84,7 @@
                                     </li>
                                 {% endif %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Go Back</button>
                         </div>
                     </div>
                 </div>

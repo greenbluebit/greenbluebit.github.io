@@ -7,33 +7,15 @@ preview-img: spritest.png
 header-img: spritest.png
 icon: keyboard
 icon_type: dark
-alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
-category: Game
-description: I worked on this game as the head programmer, quickly organizing and settling on tasks with the other two programmers. We worked on it using Unity. <br>The game, at it's core, is a local multiplayer king of the hill game with a little bit of arena combat sprinkled in. There is a basic inventory system, giving players the ability to pick up and use items as well as environmental threats from the tentacles that can break in through the stage.<br><br>
+alt: Spritest
+category: Software
+description: During the game jams I've been a part of, issues have often popped up. As a passionate programmer I enjoy making tools to help people, this is one of them.<br>When making sprites, tools for it often lack certain features, one of these is exporting a sheet from multiple animation frames. By passsing images to this program, a sheet containing all of them will be generated. This spritesheet can later be downloaded and used in any engine that supports spritesheets, such as Unity or directly read by anything and animated, such as javascript.<br>We often also need to show work in progress, to keep up with the event and to offer content to be later shown by the organizers. This program handles that too, by creating gifs from the created animations, which can be exported quickly to giphy.<br><br>Spritest has also been used by marketing students often to create animated banners for their projects and is even used by companies to place ads on their products.
 screenshots:
-    - img: spritest.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-    - img: spritest.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
-      title: Gameplay Video
-      description: Showcasing some of the gameplay
-awards:
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
+    - img: spritestOld.png
+      title: 0.1 Release
+      description: This was one of the first versions, it was built as a website, however there were issues when handling large animations.
+    - img: gif.gif
+      title: Animation
+      description: This is the generated gif, speed as well as which specific frames to be used can be specified in the program.
 ---
 

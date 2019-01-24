@@ -7,33 +7,15 @@ preview-img: s23System.png
 header-img: s23System.png
 icon: keyboard
 icon_type: light
-alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
-category: Game
-description: I worked on this game as the head programmer, quickly organizing and settling on tasks with the other two programmers. We worked on it using Unity. <br>The game, at it's core, is a local multiplayer king of the hill game with a little bit of arena combat sprinkled in. There is a basic inventory system, giving players the ability to pick up and use items as well as environmental threats from the tentacles that can break in through the stage.<br><br>
+alt: Signs23
+category: Software
+description: In the fourth semester of my bachelor, I had the opportunity to do my internship at a company in Copenhagen which handled designing, manufacturing and delivering of physical advertisements through Europe. The large amount of projects the company would have to do created a huge overhead for tracking everything as well as calculating payments, keeping statistics for different metrics over the years as well as sharing information between employees.<br>That's where the solution I developed for them came in. These are some of the most important features of the system:<br>- It allows users to create projects and track their process as well as materials and specifications.<br>- Uploading of documents and designs associated with each project.<br>- Calculation of costs for each partner and employee part of specific projects as well as earnings for the company.<br>- Metrics such as profit, costs, parts usage, amount of parts used and projects per employee.<br><br>I made this project using Laravel and MySQL predominantly, for the frontend using a mix of pure js and jQuery.
 screenshots:
-    - img: farFromNormal.png
+    - img: s23System.png
       title: Main Menu
       description: Showing four players preparing for a fight
-    - img: farFromNormal.png
+    - img: s23System.png
       title: Main Menu
       description: Showing four players preparing for a fight
-videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
-      title: Gameplay Video
-      description: Showcasing some of the gameplay
-awards:
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
 ---
 

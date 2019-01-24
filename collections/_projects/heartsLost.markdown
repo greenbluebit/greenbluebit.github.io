@@ -7,33 +7,33 @@ preview-img: heartsLost.png
 header-img: heartsLost.png
 icon: gamepad
 icon_type: light
-alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
+alt: Hearts Lost
+link: https://gamejolt.com/games/heartslost/294858
 category: Game
-description: I worked on this game as the head programmer, quickly organizing and settling on tasks with the other two programmers. We worked on it using Unity. <br>The game, at it's core, is a local multiplayer king of the hill game with a little bit of arena combat sprinkled in. There is a basic inventory system, giving players the ability to pick up and use items as well as environmental threats from the tentacles that can break in through the stage.<br><br>
+description: During fall of 2017, my girlfriend and I decided to participate in AsylumJam2017, her as the artist and I, of course, as the programmer. The game we made is an atmospheric exploration game where you try to survive, go through different levels, and figure out a way out of it for good.<br><br>Responsabilities:<br>- Create a state machine for the AI who can run from or towards the player, be idle, patrol and attack.<br>- Create a level generation code which uses parts created by the artist set in different categories (such as "wall decoration", "floor decoration", "story element").<br>- Create ability for user to drain AI of life.<br>- Create behavior which can be extended at any time using the command pattern.
 screenshots:
-    - img: heartsLost.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-    - img: heartsLost.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
+    - img: initialGeneratedLevel.jpg
+      title: First iteration of level Generation
+      description: By this point, the level was basically a large random pack of small rooms.
+    - img: generatedLevel.jpg
+      title: More advanced level generation
+      description: The rooms are now far more clearly separated as well as keeping track of which one has what type of AI.
+    - img: generatedLevelWithoutItems.jpg
+      title: Generated levels without items
+      description: At this point, our levels were very empty and did not have much going.
+    - img: gameplay.jpg
+      title: Gameplay from a more advanced version
+      description: This shows the environment after a few iterations on the project.
 videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
+    - link: https://www.youtube.com/embed/SUBDVd_BcME
       title: Gameplay Video
       description: Showcasing some of the gameplay
 awards:
     - icon: fa-trophy
       icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
+      title: #3 Best Overall Game
+      organization: Asylum Jam 2017
       order_id: 1
-      period: 09-07-2017
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
+      period: 03-11-2017
 ---
 

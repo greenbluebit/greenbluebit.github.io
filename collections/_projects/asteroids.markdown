@@ -7,33 +7,9 @@ preview-img: asteroids.png
 header-img: asteroids.png
 icon: gamepad
 icon_type: light
-alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
+alt: Asteroids
+link: https://greenbluebit.itch.io/numerous-small-celestial
 category: Game
-description: I worked on this game as the head programmer, quickly organizing and settling on tasks with the other two programmers. We worked on it using Unity. <br>The game, at it's core, is a local multiplayer king of the hill game with a little bit of arena combat sprinkled in. There is a basic inventory system, giving players the ability to pick up and use items as well as environmental threats from the tentacles that can break in through the stage.<br><br>
-screenshots:
-    - img: asteroids.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-    - img: asteroids.png
-      title: Main Menu
-      description: Showing four players preparing for a fight
-videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
-      title: Gameplay Video
-      description: Showcasing some of the gameplay
-awards:
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Overall Game - Far Beyond
-      organization: Indie Jam - Aalborg
-      order_id: 1
-      period: 09-07-2017
+description: Tried my luck at participating in the GBJAM5 with my entry, Numerous small celestial bodies composed of rock and metal, aka Asteroids.Really the hardest part of making this was the shader, everything else is just simple scripting.
 ---
 
