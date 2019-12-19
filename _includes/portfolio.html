@@ -14,7 +14,7 @@
                     {% assign projects = (site.projects | sort: 'order_id') %}
                     {% for post in projects %}
                         <div class="col-sm-4 portfolio-item">
-                            <a href="#portfolioModal-{{ post.order_id }}" class="portfolio-link" data-toggle="modal">
+                            <a href="#portfolioModal-{{ post.order_id }}" class="portfolio-link" onclick="openModal('#portfolioModal-{{ post.order_id }}')">
                                 <div class="caption">
                                     <div class="caption-content content-{% if post.content_color %}{{post.content_color}}{% else %}{{post.icon_type}}{% endif %}">
                                         <i class="fab fa-readme fa-5x"></i>

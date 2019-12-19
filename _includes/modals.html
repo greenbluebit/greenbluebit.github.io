@@ -2,11 +2,13 @@
  {% for post in site.projects %}
     <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.order_id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+            <div class="close-modal">
+                <a href="#" onclick="hideModal()">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="container">
                 <div class="row">
@@ -84,7 +86,9 @@
                                     </li>
                                 {% endif %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Go Back</button>
+                            <a class="btn btn-default" href="#" onclick="hideModal()" style="color:#fff !important; border-bottom: 0px !important;">
+                                <i class="fa fa-times"></i> Go Back
+                            </a>
                         </div>
                     </div>
                 </div>
