@@ -636,3 +636,6 @@ footer .footer-below {
     padding: 0px !important;
 }
 
+.hidden {
+    display: none;
+}

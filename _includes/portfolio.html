@@ -13,8 +13,8 @@
                 <div class="row">
                     {% assign projects = (site.projects | sort: 'order_id') %}
                     {% for post in projects %}
-                        <div class="col-sm-4 portfolio-item">
-                            <a href="#portfolioModal-{{ post.order_id }}" class="portfolio-link" onclick="openModal('#portfolioModal-{{ post.order_id }}')">
+                        <div class="col-sm-4 portfolio-item {{post.name}}_{{ post.order_id}} hidden">
+                            <a href="#{{post.name}}_{{ post.order_id}}" class="portfolio-link" onclick="openModal('#{{post.name}}_{{post.order_id}}')">
                                 <div class="caption">
                                     <div class="caption-content content-{% if post.content_color %}{{post.content_color}}{% else %}{{post.icon_type}}{% endif %}">
                                         <i class="fab fa-readme fa-5x"></i>
@@ -29,6 +29,12 @@
                             </a>
                         </div>
                     {% endfor %}
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button id="portfolio-prev-btn" class="btn btn-default" onclick="PrevBtnPressed()">Prev</button>
+                        <button id="portfolio-next-btn" class="btn btn-default" onclick="NextBtnPressed()">Next</button>
+                    </div>
                 </div>
             </div>
         </section>
