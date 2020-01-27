@@ -15,6 +15,9 @@ screenshots:
     - img: intro.png
       title: The first room
       description: The game is separated in different rooms, as the player approaches them, the entities inside activate.
+    - img: original.png
+      title: Original Design
+      description: This is how the game looked like in the first iteration.
     - img: settings.png
       title: The Settings menu
       description: The settings allowing the player a bit of customization, all of them saving for later.
