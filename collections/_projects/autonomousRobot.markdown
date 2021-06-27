@@ -30,5 +30,6 @@ screenshots:
 taggers:
     - title: IoT
     - title: C++
+    - title: Bluetooth
 ---
 

@@ -35,9 +35,9 @@
                                 </div>
                                 <img src="assets/img/{{ post.name}}/{{ post.preview-img }}" class="img-responsive" alt="{{ post.alt }}">
                             </a>
-                            <ul style="margin-top:0.25em;position: absolute;width: 100%;" class="tags list-inline">
+                            <ul style="margin-top:0.25em;position: absolute;width: 100%;    font-size: x-small;" class="tags list-inline">
                                 {% for tag in post.taggers %}
-                                    <li class="tag tag-unused" onclick="TagPressed(event, this)">#{{ tag.title }}</li>
+                                    <li>#{{ tag.title }}</li>
                                 {% endfor %}
                             </ul>
                         </div>

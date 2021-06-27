@@ -18,8 +18,8 @@ screenshots:
       title: Main Menu
       description: Showing four players preparing for a fight
 taggers:
-    - title: Game-Jam
-    - title: C#
-    - title: Unity
+    - title: Java
+    - title: SQL
+    - title: Frontend
 ---
 

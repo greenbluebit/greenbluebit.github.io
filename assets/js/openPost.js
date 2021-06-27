@@ -91,30 +91,22 @@ function HandleCurrentPage() {
         prevBtn.disabled = false;
     }
 
-    if(currentPageIndex == pageCount) {
-        nextBtn.disabled = true;
-    } else {
-        nextBtn.disabled = false;
-    }
-
-    var counter = 0;
+    var min = currentPageIndex == 0 ? -1 : (currentPageIndex * (perPage));
+    var max = ((currentPageIndex * (perPage) ) + (perPage-1));
+    var counter = min == -1 ? 0 : min;
+    var total = 1;
     for(var i = 0; i < allProjects.length; i++) {
         var className = allProjects[i].className;
-        console.log(className);
-        var min = currentPageIndex == 0 ? -1 : (currentPageIndex * (perPage));
-        var max = ((currentPageIndex * (perPage) ) + (perPage-1));
+        allProjects[i].classList.add("hidden");        
+        
         var tagSatisfied = false;
         if(taggers.length > 0) {
             console.log(allProjects[i].children[1]);
             var projectChildren = allProjects[i].children[1];
             for(var x = 0; x < projectChildren.children.length; x++) {
-                //console.log(projectChildren.children[x]);
                 for(var y = 0; y < taggers.length; y++) {
-                    console.log("TG: " + taggers[y]);
-                    console.log("LG: " + projectChildren.children[x].innerText.substr(1));
                     if(projectChildren.children[x].innerText.substr(1) == taggers[y]) {
                         tagSatisfied = true;
-                        console.log("YAY");
                         break;
                     }
                 }
@@ -126,15 +118,23 @@ function HandleCurrentPage() {
             tagSatisfied = true;
         }
         
-
-        console.log("TAGSATIS: " + tagSatisfied);
-        if(counter < min || counter > max || tagSatisfied == false) {
-            allProjects[i].classList.add("hidden");
-        } else {
-            counter++;
+        
+        if(i >= counter && counter >= min && counter <= max && tagSatisfied == true) {
             allProjects[i].classList.remove("hidden");
         }
-        
+        if(tagSatisfied == true) {
+           if(i >= counter) {
+            counter++;
+           } 
+           total++;
+        }
+    }
+
+    pageCount = Math.floor(total / perPage);
+    if(currentPageIndex >= pageCount) {
+        nextBtn.disabled = true;
+    } else {
+        nextBtn.disabled = false;
     }
 }
 
