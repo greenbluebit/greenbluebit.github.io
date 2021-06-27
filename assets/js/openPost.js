@@ -131,7 +131,7 @@ function HandleCurrentPage() {
     }
 
     pageCount = Math.floor(total / perPage);
-    if(currentPageIndex >= pageCount) {
+    if(currentPageIndex + 1 >= pageCount) {
         nextBtn.disabled = true;
     } else {
         nextBtn.disabled = false;

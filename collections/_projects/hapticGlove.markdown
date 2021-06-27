@@ -1,8 +1,8 @@
 ---
 layout: default
 order_id: 12
-name: farFromNormal
-title: Far From Normal
+name: hapticGlove
+title: Haptic Glove
 preview-img: farFromNormal.png
 header-img: farFromNormal.png
 icon: gamepad

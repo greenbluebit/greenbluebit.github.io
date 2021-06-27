@@ -1,6 +1,6 @@
 ---
 layout: default
-order_id: 10
+order_id: 8
 name: farBeyond
 title: Far From Normal
 preview-img: farBeyond.png

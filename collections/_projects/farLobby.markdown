@@ -1,6 +1,6 @@
 ---
 layout: default
-order_id: 2
+order_id: 10
 name: farLobby
 title: Far Lobby
 preview-img: farLobby.png
