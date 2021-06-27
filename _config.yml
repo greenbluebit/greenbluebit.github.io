@@ -26,6 +26,21 @@ collections:
   - education
   - projects
 
+# Tags for projects
+taggers:
+  - title: Hobby
+  - title: Work
+  - title: Game-Jam
+  - title: IoT
+  - title: C#
+  - title: Java
+  - title: mySQL
+  - title: Android
+  - title: Bluetooth
+  - title: C++
+  - title: Unity
+
+
 # Social networks
 social:
   - title: twitter

@@ -10,6 +10,14 @@
                         </span>
                     </div>
                 </div>
+                <div class="row tags-holder">
+                    <ul class="list-inline no_selection">
+                        <li>Tags:</li>
+                        {% for tag in site.taggers %}
+                            <li class="tag tag-unused" onclick="TagPressed(event, this)">#{{ tag.title }} </li>
+                        {% endfor %}
+                    </ul>
+                </div>
                 <div class="row">
                     {% assign projects = (site.projects | sort: 'order_id') %}
                     {% for post in projects %}
@@ -27,6 +35,11 @@
                                 </div>
                                 <img src="assets/img/{{ post.name}}/{{ post.preview-img }}" class="img-responsive" alt="{{ post.alt }}">
                             </a>
+                            <ul style="margin-top:0.25em;position: absolute;width: 100%;" class="tags list-inline">
+                                {% for tag in post.taggers %}
+                                    <li class="tag tag-unused" onclick="TagPressed(event, this)">#{{ tag.title }} </li>
+                                {% endfor %}
+                            </ul>
                         </div>
                     {% endfor %}
                 </div>
