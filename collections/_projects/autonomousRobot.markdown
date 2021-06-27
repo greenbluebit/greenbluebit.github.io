@@ -27,5 +27,8 @@ screenshots:
     - img: robo-map2.gif
       title: Hub app mapping
       description: The hub app receiving dots and drawing them on a map.
+taggers:
+    - title: IoT
+    - title: C++
 ---
 

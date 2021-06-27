@@ -35,5 +35,9 @@ awards:
       organization: Asylum Jam 2017
       order_id: 1
       period: 03-11-2017
+taggers:
+    - title: Game-Jam
+    - title: C#
+    - title: Unity
 ---
 

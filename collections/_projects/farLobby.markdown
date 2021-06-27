@@ -35,5 +35,9 @@ awards:
       organization: Create Jam Spring 18 - Aalborg
       order_id: 1
       period: 15-11-2018
+taggers:
+    - title: Game-Jam
+    - title: C#
+    - title: Unity
 ---
 

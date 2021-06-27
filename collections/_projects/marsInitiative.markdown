@@ -24,5 +24,9 @@ screenshots:
     - img: laserShot.png
       title: End Game
       description: Players can use the laser to destroy old factories. But it will use a lot of fuel.
+taggers:
+    - title: Game-Jam
+    - title: C#
+    - title: Unity
 ---
 

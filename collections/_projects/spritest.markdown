@@ -17,5 +17,9 @@ screenshots:
     - img: gif.gif
       title: Animation
       description: This is the generated gif, speed as well as which specific frames to be used can be specified in the program.
+taggers:
+    - title: Game-Jam
+    - title: C#
+    - title: Unity
 ---
 

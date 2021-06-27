@@ -20,5 +20,9 @@ screenshots:
     - img: adQueryDocument.png
       title: CouchDB document for Ad Query
       description: This is the document that has all of the info about a service. In it we can see if the service is running and other details specific to the service.
+taggers:
+    - title: Game-Jam
+    - title: C#
+    - title: Unity
 ---
 

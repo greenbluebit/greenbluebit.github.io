@@ -17,5 +17,9 @@ screenshots:
     - img: s23System.png
       title: Main Menu
       description: Showing four players preparing for a fight
+taggers:
+    - title: Game-Jam
+    - title: C#
+    - title: Unity
 ---
 

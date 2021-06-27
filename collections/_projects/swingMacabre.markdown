@@ -25,5 +25,9 @@ videos:
     - link: https://www.youtube.com/embed/IAR86coq_0w
       title: Gameplay Video
       description: Showcasing some of the gameplay
+taggers:
+    - title: Game-Jam
+    - title: C#
+    - title: Unity
 ---
 

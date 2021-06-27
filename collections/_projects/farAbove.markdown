@@ -38,5 +38,9 @@ awards:
       organization: Create Jam Fall 17 - Aalborg
       order_id: 1
       period: 09-12-2017
+taggers:
+    - title: Game-Jam
+    - title: C#
+    - title: Unity
 ---
 

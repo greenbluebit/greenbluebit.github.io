@@ -25,5 +25,9 @@ awards:
       organization: Indie Jam - Aalborg
       order_id: 1
       period: 09-06-2015
+taggers:
+    - title: Game-Jam
+    - title: C#
+    - title: Unity
 ---
 

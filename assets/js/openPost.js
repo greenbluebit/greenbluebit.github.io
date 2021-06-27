@@ -66,7 +66,7 @@ function TagPressed(event, tag) {
     } else {
         event.cancelBubble = true; // IE model
     }
-    
+
     if(tag.className.includes("tag-unused")) {
         tag.className = "tag tag-used";
         taggers.push(tag.innerText.substr(1));
@@ -105,11 +105,16 @@ function HandleCurrentPage() {
         var max = ((currentPageIndex * (perPage) ) + (perPage-1));
         var tagSatisfied = false;
         if(taggers.length > 0) {
-            for(var x = 0; x < allProjects[i].children[1].children.length; i++) {
-                console.log(allProjects[i].children[1].children[i]);
+            console.log(allProjects[i].children[1]);
+            var projectChildren = allProjects[i].children[1];
+            for(var x = 0; x < projectChildren.children.length; x++) {
+                //console.log(projectChildren.children[x]);
                 for(var y = 0; y < taggers.length; y++) {
-                    if(allProjects[i].children[1].children[x].innerText.substr(1) == taggers[y]) {
+                    console.log("TG: " + taggers[y]);
+                    console.log("LG: " + projectChildren.children[x].innerText.substr(1));
+                    if(projectChildren.children[x].innerText.substr(1) == taggers[y]) {
                         tagSatisfied = true;
+                        console.log("YAY");
                         break;
                     }
                 }
@@ -122,12 +127,14 @@ function HandleCurrentPage() {
         }
         
 
-
-        if(i < min || i > max || tagSatisfied == false) {
+        console.log("TAGSATIS: " + tagSatisfied);
+        if(counter < min || counter > max || tagSatisfied == false) {
             allProjects[i].classList.add("hidden");
         } else {
+            counter++;
             allProjects[i].classList.remove("hidden");
         }
+        
     }
 }
 
