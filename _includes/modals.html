@@ -66,15 +66,15 @@
                             {% endif %}
                             {% if post.local_videos %}
                                 {% for video in post.local_videos %}
-                                <video width="320" height="240" controls>
-                                  <source src="assets/img/{{post.name}}/{{video.source}}" type="video/{{video.type}}">
-                                </video>
+                                    <video width="320" height="240" controls>
+                                      <source src="assets/img/{{post.name}}/{{video.source}}" type="video/{{video.type}}">
+                                    </video>
                                 {% endfor %}
                             {% endif %}
                             {% if post.videos %}
                                 {% for video in post.videos %}
                                     <div>
-                                        <iframe src="{{video.link}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe id="video-{{post.name}}" src="{{video.link}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 {% endfor %}
                             {% endif %}
@@ -95,4 +95,6 @@
             </div>
         </div>
     </div>
+
+    
 {% endfor %}

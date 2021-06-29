@@ -2,15 +2,18 @@ function openModal(hash) {
     $(hash).modal('show');
 }
 
-function hideModal() {
+function hideModal(elem) {
     $('.modal').modal('hide');
 }
 
 //historyChange();
 
 var allProjects = document.getElementsByClassName("portfolio-item");
+console.log(allProjects);
 var perPage = 6;
-var pageCount = Math.floor(allProjects.length / perPage);
+var pageCount = Math.round(allProjects.length / perPage);
+console.log(pageCount);
+console.log(allProjects.length);
 var currentPageIndex = 0;
 var nextBtn = document.getElementById("portfolio-next-btn");
 var prevBtn = document.getElementById("portfolio-prev-btn");
@@ -130,7 +133,7 @@ function HandleCurrentPage() {
         }
     }
 
-    pageCount = Math.floor(total / perPage);
+    pageCount = Math.round(total / perPage);
     if(currentPageIndex + 1 >= pageCount) {
         nextBtn.disabled = true;
     } else {

@@ -1,6 +1,6 @@
 ---
 layout: default
-order_id: 8
+order_id: 3
 name: farBeyond
 title: Far From Normal
 preview-img: farBeyond.png
@@ -10,7 +10,7 @@ icon_type: light
 alt: Far Beyond
 link: https://tandems.itch.io/far-beyond
 category: Game
-description: The second time I ever did a gamejam, used the Unreal Engine though I had never opened it, my insanity is clear. The game is heavily reliant on it's narrative, taking the player through a wasteland and slowly giving him details of what happened, ending in the player having too much and deciding to do something about it.<br><br>Responsabilities:<br>- Creating the behavior for interacting with objects, showing them up close, for example, to read a newspaper.<br>- Creating the frost functionality, where the player has to hurry between camps, least he loose too much body heat and die.<br>- Make the end cinematic using the Sequencer tool in unreal.
+description: The second time I ever participated in a gamejam, used the Unreal Engine though I had never opened it, my insanity is clear. The game is heavily reliant on it's narrative, taking the player through a wasteland and slowly giving him details of what happened, ending in the player having too much and deciding to do something about it.<br><br>Responsabilities:<br>- Creating the behavior for interacting with objects, showing them up close, for example, to read a newspaper.<br>- Creating the frost functionality, where the player has to hurry between camps, least he loose too much body heat and die.<br>- Make the end cinematic using the Sequencer tool in unreal.
 screenshots:
     - img: gameplay.png
       title: Exiting the cave

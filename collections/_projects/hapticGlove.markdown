@@ -1,44 +1,37 @@
 ---
 layout: default
-order_id: 12
+order_id: 14
 name: hapticGlove
 title: Haptic Glove
-preview-img: farFromNormal.png
-header-img: farFromNormal.png
-icon: gamepad
+preview-img: hapticGloveThumbnail.png
+header-img: hapticGloveHeader.png
+icon: keyboard
 icon_type: light
 content_color: dark
-alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
-category: Game
-description: The theme for this gamejam was "Spooky baby cultists". We decided to use the 4|44 rule. Where you spend the first four hours making a prototype of the whole game and if you're happy with what you have, spend the rest 44 hours polishing and making the game enjoyable.<br><br>Responsabilities:<br>- Local multiplayer and work on mapping game controllers to characters<br>- UI animations and tracking of points<br>- GameController for score, deaths and spawning items<br>- Inventory system and object interaction<br>- AnimationController for any object on any specified event<br>- Player spawning<br>- Environment threats<br>- Lead a team of 2 other programmers and review their tasks<br><br>We received the opportunity to visit Funday Factory, a game company in Aarhus, where we got information from the people there on different tweaks we could do to improve the game and to make our vision into an actual full game.<br>Later on, a smaller part of the team that was interested to continue in the project spent a week and implemented the features and bugfixes we realized we needed. The game is now in 1.0 and is one of my most proudest achievements.<br><br>Credits for 1.0:<br>- Austeja Vaicyte | Lead Artist<br>- Mark Nielsen | VFX and Programmer<br>- Theodor F Purcaru | Lead Programmer
+alt: Haptic Glove
+category: Software
+description: For my Master Thesis, I developed a haptic feedback glove based on work done by people such as Thad Starner. The work was separated in two semesters, in the first one we focused on Grounded theory, where we collected rich data to try to understand saxophone players and their problems. This was done through interviews and observations I led, as well as a number of surveys. We took all of the collected data and generated a Thematic Analysis which was crucial at knowing what we wanted to specifically target with out solution the next semester.<br><br>During the second semester we went through a lengthy design phase until developing the final version of the project. I interviewed experts in the field of playing the saxophone, electrical engineering and design. They helped bring in context and answer the questions that came through the iterative process.<br><br>I built the glove using an Arduino Nano for all of the logic, pressure sensors to detect the movements of the user, coin motors to give haptic feedback, leds to guide the user and a bluetooth BLE module to send data to an Android app. The app was used to improve the capabilities of data storage and debugging but after different feedback I expanded it to allow users to setup and calibrate the glove as well as recording and replaying movement patterns. We conducted a number of interviews of people using the glove, where they would try to either follow along, the vibrations being continuous until correct, or simply feel a whole pattern move without any interuption and try to see if they could memorize or understand it. The results were discussed in the final research paper.
 screenshots:
-    - img: prototype.png
-      title: 4H Prototype
-      description: How the game looked, 4 hours into the jam.
-    - img: endOfJam.png
-      title: Gameplay for v0.1
-      description: This is how the game looked like at the end of the jam.
-    - img: 1.0StartGame.png
-      title: v1.0 - First moments
-      description: The game is far more intense now, with more dangers and tools at the players disposal.
-    - img: 1.0EndGame.png
-      title: v1.0 - Last moments
-      description: The game ends in an epic manner.
+    - img: affinityDiagram.png
+      title: Affinity Diagram for Thematic Analysis
+      description: The themes we discovered from our indepth analysis.
+    - img: gloveEvolution.png
+      title: Original Design --> Final Design
+      description: The final design supports differently sized hands due to the finger modules being able to bend.
+    - img: displayedParts.png
+      title: Parts on display
+      description: All of the parts used except for the leds.
+    - img: oldAppNewApp.png
+      title: The two Android apps
+      description: The first one is the debug app, the one on the right is the final one I developed.
 videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
-      title: Gameplay Video
-      description: Showcasing some of the gameplay
-awards:
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Game
-      organization: Create Jam Fall 18 - Aalborg
-      order_id: 1
-      period: 15-11-2018
+    - link: https://www.youtube.com/embed/tj38RzZlQ9E
+      title: Showcasing "Slow Learning"
+      description: This video shows the mode where users need to properly follow along with the haptic feedback.
 taggers:
-    - title: Game-Jam
-    - title: C#
-    - title: Unity
+    - title: IoT
+    - title: C++
+    - title: Bluetooth
+    - title: Android
 ---
 

@@ -28,20 +28,13 @@ collections:
 
 # Tags for projects
 taggers:
-  - title: Hobby
-  - title: Work
   - title: Game-Jam
   - title: IoT
   - title: C#
-  - title: Java
-  - title: SQL
-  - title: noSQL
   - title: Android
   - title: Bluetooth
   - title: C++
   - title: Unity
-  - title: Angular
-  - title: Frontend
 
 
 # Social networks

@@ -1,41 +1,28 @@
 ---
 layout: default
 order_id: 12
-name: farFromNormal
-title: Far From Normal
-preview-img: farFromNormal.png
-header-img: farFromNormal.png
+name: hurt
+title: Hurt
+preview-img: hurtThumbnail2.png
+header-img: hurtHeader.png
 icon: gamepad
 icon_type: light
-content_color: dark
+content_color: light
 alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
+link: https://ted-f-p.itch.io/hurt
 category: Game
-description: The theme for this gamejam was "Spooky baby cultists". We decided to use the 4|44 rule. Where you spend the first four hours making a prototype of the whole game and if you're happy with what you have, spend the rest 44 hours polishing and making the game enjoyable.<br><br>Responsabilities:<br>- Local multiplayer and work on mapping game controllers to characters<br>- UI animations and tracking of points<br>- GameController for score, deaths and spawning items<br>- Inventory system and object interaction<br>- AnimationController for any object on any specified event<br>- Player spawning<br>- Environment threats<br>- Lead a team of 2 other programmers and review their tasks<br><br>We received the opportunity to visit Funday Factory, a game company in Aarhus, where we got information from the people there on different tweaks we could do to improve the game and to make our vision into an actual full game.<br>Later on, a smaller part of the team that was interested to continue in the project spent a week and implemented the features and bugfixes we realized we needed. The game is now in 1.0 and is one of my most proudest achievements.<br><br>Credits for 1.0:<br>- Austeja Vaicyte | Lead Artist<br>- Mark Nielsen | VFX and Programmer<br>- Theodor F Purcaru | Lead Programmer
+description: For the MiniJam65 I made a narrative driven game where the player slowly explores their environment in hopes of figuring out what is happening. The whole story would have had the player eventually discovering they had died and the entire gameplay section being a sort of Limbo, where his guilt and self-hatred would keep him in a constant loop. <br><br>The game uses asynchronous scene loading to quickly change and merge scenes, this helps with having as many interactables and details as I would want to place, since the area would be small and self contained. It also has a rain shader I wrote in Cg.<br><br>The interactables function with contracts. This architecture allows me to expand and create anything for the player to use quickly and was very helpful to get something functional quickly during the gamejam.
 screenshots:
-    - img: prototype.png
-      title: 4H Prototype
-      description: How the game looked, 4 hours into the jam.
-    - img: endOfJam.png
-      title: Gameplay for v0.1
-      description: This is how the game looked like at the end of the jam.
-    - img: 1.0StartGame.png
-      title: v1.0 - First moments
-      description: The game is far more intense now, with more dangers and tools at the players disposal.
-    - img: 1.0EndGame.png
-      title: v1.0 - Last moments
-      description: The game ends in an epic manner.
+    - img: storyElement.png
+      title: Story Interactable
+      description: The narrative is presented through interactable objects that offer text or activities.
+    - img: window.png
+      title: Window
+      description: This is the start screen, it shows cars stuck in traffic and a constant rain, setting the mood.
 videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
+    - link: https://www.youtube.com/embed/9PCBBg2kvPE
       title: Gameplay Video
       description: Showcasing some of the gameplay
-awards:
-    - icon: fa-trophy
-      icon_type: icon
-      title: Best Game
-      organization: Create Jam Fall 18 - Aalborg
-      order_id: 1
-      period: 15-11-2018
 taggers:
     - title: Game-Jam
     - title: C#

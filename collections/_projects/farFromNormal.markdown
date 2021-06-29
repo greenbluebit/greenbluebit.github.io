@@ -1,17 +1,17 @@
 ---
 layout: default
-order_id: 12
+order_id: 16
 name: farFromNormal
 title: Far From Normal
 preview-img: farFromNormal.png
-header-img: farFromNormal.png
+header-img: farFromNormalHeader.png
 icon: gamepad
 icon_type: light
 content_color: dark
 alt: Far From Normal
-link: https://octohatgames.itch.io/far-from-normal
+link: https://www.kartridge.com/games/SnowfallStudio/far-from-normal
 category: Game
-description: The theme for this gamejam was "Spooky baby cultists". We decided to use the 4|44 rule. Where you spend the first four hours making a prototype of the whole game and if you're happy with what you have, spend the rest 44 hours polishing and making the game enjoyable.<br><br>Responsabilities:<br>- Local multiplayer and work on mapping game controllers to characters<br>- UI animations and tracking of points<br>- GameController for score, deaths and spawning items<br>- Inventory system and object interaction<br>- AnimationController for any object on any specified event<br>- Player spawning<br>- Environment threats<br>- Lead a team of 2 other programmers and review their tasks<br><br>We received the opportunity to visit Funday Factory, a game company in Aarhus, where we got information from the people there on different tweaks we could do to improve the game and to make our vision into an actual full game.<br>Later on, a smaller part of the team that was interested to continue in the project spent a week and implemented the features and bugfixes we realized we needed. The game is now in 1.0 and is one of my most proudest achievements.<br><br>Credits for 1.0:<br>- Austeja Vaicyte | Lead Artist<br>- Mark Nielsen | VFX and Programmer<br>- Theodor F Purcaru | Lead Programmer
+description: The theme for this gamejam was "Spooky baby cultists". We decided to use the 4|44 rule. Where you spend the first four hours making a prototype of the whole game and if you're happy with what you have, spend the rest 44 hours polishing and making the game enjoyable.<br><br>Responsabilities:<br>- Local multiplayer and work on mapping game controllers to characters<br>- UI animations and tracking of points<br>- GameController for score, deaths and spawning items<br>- Inventory system and object interaction<br>- AnimationController for any object on any specified event<br>- Player spawning<br>- Environment threats<br>- Lead a team of 2 other programmers and review their tasks<br><br>We received the opportunity to visit Funday Factory, a game company in Aarhus, where we got information from the people there on different tweaks we could do to improve the game and to make our vision into an actual full game.<br>Later on, a smaller part of the team that was interested to continue in the project spent a week and implemented the features and bugfixes we realized we needed. The game is now in 1.0 and is one of my most proudest achievements.<br><br>Credits for 1.0:<br>- Austeja Vaicyte | Lead Artist<br>- Mark Nielsen | VFX and Programmer<br>- Theodor F Purcaru | Lead Programmer<br><br>Later, as part of yet a smaller part of the team, we worked towards finishing all of the ideas we had, making the game more enjoyable, creating a trailer and releasing it on kartridge.<br><br>Credits for 2.0:<br>- Austeja Vaicyte | Artist<br>- Theodor F Purcaru | Programmer
 screenshots:
     - img: prototype.png
       title: 4H Prototype
@@ -22,11 +22,11 @@ screenshots:
     - img: 1.0StartGame.png
       title: v1.0 - First moments
       description: The game is far more intense now, with more dangers and tools at the players disposal.
-    - img: 1.0EndGame.png
-      title: v1.0 - Last moments
-      description: The game ends in an epic manner.
+    - img: 2.0EndGame.png
+      title: v2.0 - Last moments
+      description: The game ends in an epic manner in the updated version.
 videos:
-    - link: https://www.youtube.com/embed/0tMsdFcywOs
+    - link: https://www.youtube.com/embed/v9YKnGEPS-Y
       title: Gameplay Video
       description: Showcasing some of the gameplay
 awards:

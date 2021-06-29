@@ -1,6 +1,6 @@
 ---
 layout: default
-order_id: 1
+order_id: 6
 name: glitchedConstruct
 title: Glitched Construct
 preview-img: glitchedConstruct.png
