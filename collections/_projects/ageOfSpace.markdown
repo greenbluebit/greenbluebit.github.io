@@ -30,7 +30,6 @@ videos:
       title: Dynamic Cinematic
       description: Showcasing some of the cinematic behaviours
 taggers:
-    - title: Game-Jam
     - title: C#
     - title: Unity
 ---
