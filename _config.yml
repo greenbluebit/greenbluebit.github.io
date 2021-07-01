@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Looking for projects to sink my teeth in.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: ""
+image: https://i.ibb.co/Y8WbCPp/ted.png
 meta_author: Theodor Purcaru
 keywords: "software developer, programming, game development"
 # Google webmaster tools
