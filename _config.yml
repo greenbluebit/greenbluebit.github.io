@@ -26,16 +26,17 @@ collections:
   - jobs
   - education
   - projects
+  - recommendations
 
 # Tags for projects
 taggers:
+  - title: C#
+  - title: Unity
+  - title: C++
   - title: Game-Jam
   - title: IoT
-  - title: C#
   - title: Android
   - title: Bluetooth
-  - title: C++
-  - title: Unity
 
 
 # Social networks

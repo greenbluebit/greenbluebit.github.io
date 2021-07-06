@@ -1,0 +1,32 @@
+<!-- Portfolio Grid Section -->
+    <section id="recommendation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Recommendations</h2>
+                    <hr class="pg-border">
+                    <span class="pg-border-icon dark">
+                        <i class="fas fa-desktop fa-2x"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                {% assign recommendations = (site.recommendations | sort: 'order_id' | reverse) %}
+                {% for recommendation in recommendations %}
+                <div class="row">
+                    <div class="col-sm-2 award-and-certification-icon">
+                        <img class="recommendation_icon" src="assets/img/recommendations/{{recommendation.name}}/{{recommendation.image}}" alt="{{recommendation.fullName}}" title="{{ recommendation.fullName }}" />
+                    </div>
+                    <div class="col-sm-10 award-and-certification-item recommendation">
+                    	<h3>{{recommendation.fullName}}, {{recommendation.title}}</h3>
+                    	<h5><a href="{{recommendation.website}}" target="_blank">{{recommendation.organization}}</a> | <a href="{{recommendation.linkedIn}}" target="_blank" class="styled-link">LinkedIn</a></h5>
+                        <p class="recommendation-preview">
+                        	{{recommendation.description}}
+                        </p>
+                        <span class="btn btn-default read read-more" onclick="readPressed(event, this)">Read More</span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>

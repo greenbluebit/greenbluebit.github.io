@@ -74,7 +74,7 @@
                             {% if post.videos %}
                                 {% for video in post.videos %}
                                     <div>
-                                        <iframe id="video-{{post.name}}" src="{{video.link}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        <iframe title="video-{{post.name}}" id="video-{{post.name}}" src="{{video.link}}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 {% endfor %}
                             {% endif %}

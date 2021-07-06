@@ -1,5 +1,5 @@
 ---
-icon: fa-university
+icon: fa-scroll
 icon_type: icon
 title: Unity Developer Certificate
 organization: unity

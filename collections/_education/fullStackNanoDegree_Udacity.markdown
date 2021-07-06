@@ -1,5 +1,5 @@
 ---
-icon: fa-university
+icon: fa-award
 icon_type: icon
 title: FullStack Dev Nanodegree
 organization: Udacity

@@ -1,0 +1,11 @@
+---
+order_id: 2
+title: CTO
+organization: JourneyXP
+name: abdullaCTOJXP
+image: abdulla_icon.jpg
+fullName: Abdulla Herzallah
+linkedIn: https://www.linkedin.com/in/abdullaherzallah/
+website: https://journeyxp.com/about
+description: I have worked together with Theodor Florian Purcaru for over four years, during this time he has worked under my supervision and I have seen him learn and develop both as a software developer and as a person.His work involved many aspects of development and he got to shine in every single one of them as he achieved his goals.<br><br>During the first few years, he worked as part of a team lead by our Chief Architect. In that time, he became fluent with the software design patterns chosen by him and followed through even during crunch time. He was also happy to help his peers. In a short time, he became the go to person for questions as well as any needed tools and scripts for people in other departments in order to speed up their tasks after talking with them and understanding their issues and seeing the scenario they were facing.<br><br>Later on, proving himself as able to work as part of a team and lead, he was given his own team, where he excelled as well. His teams’ productivity was aided not only by his diligence in working and fixing any reported bugs from our QA department, but also because he did not just delegate, he took his equal share of tasks, reviewed those of his team-mates and continued studying and improving.During this time, he asked for online courses that he and his team could take, which was advantageous as we switched to using Angular and they all received quick training.<br><br>To conclude, Theodor Florian Purcaru has always been a hard worker and strived towards gaining as much knowledge as possible to improve himself and the people around him. He is also a pleasure to be around and have his positive outlook on life rub off on you. I personally believe that any institution would be lucky to have him as a student or an employee.
+---
