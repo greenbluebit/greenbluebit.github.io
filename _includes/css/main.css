@@ -180,7 +180,7 @@ h4 {
     border-bottom: 4px solid #{{ site.color.cold-light }};
     color: #{{ site.color.cold-light }} !important;
 }
-.portfolio-modal a:hover, h4 u:hover {
+.styled-link:hover,  .portfolio-modal a:hover, h4 u:hover {
     color: #{{ site.color.cold-dark }} !important;
     border-bottom: 4px solid #{{ site.color.cold-dark }};
 }
